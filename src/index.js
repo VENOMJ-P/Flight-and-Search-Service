@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require("body-parser");
 
-const {PORT} = require('./config/serverConfig');
+const { PORT } = require('./config/serverConfig');
 
 
 const setupAndStartServer = async () => {
@@ -17,5 +17,5 @@ const setupAndStartServer = async () => {
 
 }
 
-console.log("Program Started ");
+console.log("Program Started ",PORT);
 setupAndStartServer();
